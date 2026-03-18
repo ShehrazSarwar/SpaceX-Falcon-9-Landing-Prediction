@@ -1,82 +1,137 @@
-# 🚀 SpaceX Falcon 9 First Stage Landing Prediction
+# 🚀 SpaceX Falcon 9 Landing Prediction
 
-This project analyzes historical **SpaceX Falcon 9 launch data** to predict whether the **first stage booster will successfully land**. The project follows a complete **data science workflow**, including data collection, cleaning, exploratory analysis, visualization, dashboard development, and machine learning modeling.
-
----
-
-## 📌 Project Objective
-
-SpaceX reduced the cost of space launches by successfully **reusing Falcon 9 boosters**. Predicting landing success helps estimate launch costs and understand the factors influencing rocket recovery.
-
-The goal of this project is to **analyze launch data and build a machine learning model to predict landing success**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Dashboard-Plotly%20Dash-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
+</p>
 
 ---
 
-## ⚙️ Technologies Used
+## 📌 Project Overview
 
-* Python
-* Pandas & NumPy
-* Matplotlib & Seaborn
+SpaceX reduced launch costs drastically using reusable rockets.
+This project predicts **whether the Falcon 9 first stage will successfully land** using historical launch data.
+
+💡 The goal is to help:
+
+* Estimate launch cost efficiency
+* Identify key success factors
+* Support decision-making with data
+
+---
+
+## 🎯 Key Highlights
+
+✔ End-to-end Data Science project
+✔ API + Web Scraping data collection
+✔ SQL + Python EDA
+✔ Interactive Dashboard (Dash + Plotly & Power BI)
+✔ Machine Learning model with **91.6% accuracy**
+
+---
+
+## 🧠 Tech Stack
+
+* Python (Pandas, NumPy)
+* Scikit-learn
 * SQL
-* Folium (Geospatial Visualization)
-* Plotly Dash & Power BI (Dashboard)
-* Scikit-learn (Machine Learning)
+* Plotly Dash
+* Power BI
+* Folium (Maps)
 
 ---
 
-## 📊 Project Workflow
+## 📊 Dashboard Preview
 
-1. **Data Collection**
+### Home
 
-   * SpaceX API
-   * Web Scraping (Wikipedia)
+![Home](assets/Home.jpg)
 
-2. **Data Wrangling**
+### Dashboard
 
-   * Data cleaning and feature engineering
+![Dashboard](assets/Dashboard.jpg)
 
-3. **Exploratory Data Analysis**
+### Details
 
-   * SQL queries and Python visualizations
-
-4. **Geospatial Analysis**
-
-   * Interactive launch site maps using Folium
-
-5. **Interactive Dashboard**
-
-   * Built using Plotly Dash and Power BI
-
-6. **Machine Learning**
-
-   * Logistic Regression
-   * SVM
-   * KNN
-   * Decision Tree
+![Details](assets/Details.jpg)
 
 ---
 
-## 🏆 Model Performance
+## 🔍 Project Workflow
 
-The **Decision Tree Classifier** achieved the best performance.
-
-* **Cross Validation Accuracy:** **91.6%**
-
----
-
-## 📄 Project Report
-
-For a **complete explanation of the methodology, analysis, visualizations, and model results**, please read the full project report:
-
-📄 **Project Report:** `Project Report.pdf`
+```mermaid
+graph LR
+A[Data Collection] --> B[Data Wrangling]
+B --> C[EDA - SQL]
+C --> D[EDA - Visualization]
+D --> E[Dashboard]
+E --> F[Machine Learning]
+F --> G[Prediction]
+```
 
 ---
 
-## 👨‍💻 Author
+## 📦 Dataset
 
-**Shehraz Sarwar**
-
-LinkedIn:
-[https://www.linkedin.com/in/shehraz-sarwar-ghouri-321394247/](https://www.linkedin.com/in/shehraz-sarwar-ghouri-321394247/)
+* SpaceX API
+* Wikipedia Scraping
 
 ---
+
+## ⚙️ Machine Learning Models
+
+| Model               | Accuracy  |
+| ------------------- | --------- |
+| Logistic Regression | 84.6%     |
+| SVM                 | 84.8%     |
+| KNN                 | 84.8%     |
+| 🌟 Decision Tree    | **91.6%** |
+
+---
+
+## 📈 Key Insights
+
+* Payload mass has **low impact** on success
+* Launch site significantly affects outcomes
+* Success rate improved over time
+* Decision Tree performed best
+
+---
+
+## 📁 Project Structure
+
+```
+├── 1 - Collecting the data (API & WEB SCRAPE)/
+├── 2 - Data Wrangling/
+├── 3 - Exploratory Data Analysis using SQL/
+├── 4 - Python EDA with Visualization/
+├── 5 - (Optional) - Interactive Visuals with Folium/           
+├── 6 - Interactive Dashboard with Plotly Dash/
+├── 7 - Predictive Analysis/
+├── 8 - Powerbi Dashboard/
+├── Flowcharts/
+├── assets/
+├── Project Report.pdf
+└── README.md
+```
+
+---
+
+## 🤝 Connect With Me
+
+💼 LinkedIn:
+https://www.linkedin.com/in/shehraz-sarwar-ghouri-321394247/
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+<p align="center">
+  Made with ❤️ by <b>Shehraz Sarwar</b>
+</p>
